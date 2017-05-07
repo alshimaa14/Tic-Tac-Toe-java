@@ -1,0 +1,124 @@
+#txt{
+  -fx-font:30px Cambria;
+ 
+}
+
+#btnHome{
+  -fx-background-repeat:no-repeat;
+  -fx-background-position:center;
+  -fx-background-image: url('resources/images/home3.png');
+  -fx-background-size: 45px;
+  -fx-pref-width:40px;
+  -fx-pref-height:40px;
+
+}
+#btnExit{
+  -fx-background-repeat:no-repeat;
+  -fx-background-position:center;
+  -fx-background-image: url('resources/images/exit1.png');
+  -fx-background-size: 53px;
+  -fx-pref-width:40px;
+  -fx-pref-height:40px;
+}
+#loseImge
+{
+  -fx-background-image: url('resources/images/lose.png');  
+  -fx-background-repeat:no-repeat;
+  -fx-background-position:center;
+  -fx-background-size: 100px;
+  -fx-pref-width:150px;
+  -fx-pref-height:100px;
+}
+#buttonSave
+{
+   
+ -fx-background-color:
+    #ecebe9,
+        rgba(0,0,0,0.05),
+        linear-gradient(#dcca8a, #c7a740),
+        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+        linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 7 20 10 20;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);   
+}
+#buttonSave:hover{
+     -fx-background-color:
+  #ecebe9,
+      rgba(0,0,0,0.05),
+      linear-gradient(#dcca8a, #c7a740),
+      linear-gradient(#f9f2d6 100%, #f4e5bc 80%, #e6c75d 20%, #e2c045 0%),
+      linear-gradient(#e6c34d,#f6ebbe);
+  -fx-background-insets: 0,9 9 8 9,9,10,11;
+  -fx-background-radius: 50;
+  -fx-padding: 7 20 10 20;
+  -fx-font-family: "Helvetica";
+  -fx-font-size: 18px;
+  -fx-text-fill: #ffffff;
+  -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+    
+}
+#button {
+    -fx-background-color:
+    #ecebe9,
+        rgba(0,0,0,0.05),
+        linear-gradient(#dcca8a, #c7a740),
+        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+        linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+#button:hover{
+  -fx-background-color:
+  #ecebe9,
+      rgba(0,0,0,0.05),
+      linear-gradient(#dcca8a, #c7a740),
+      linear-gradient(#f9f2d6 100%, #f4e5bc 80%, #e6c75d 20%, #e2c045 0%),
+      linear-gradient(#e6c34d,#f6ebbe);
+  -fx-background-insets: 0,9 9 8 9,9,10,11;
+  -fx-background-radius: 50;
+  -fx-padding: 15 30 15 30;
+  -fx-font-family: "Helvetica";
+  -fx-font-size: 18px;
+  -fx-text-fill: #ffffff;
+  -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+#button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+/*#board{
+-fx-background-image:url(resources/images/white.jpg);
+}*/
+#btnX{
+  -fx-background-repeat:no-repeat;
+  -fx-background-position:center;
+  -fx-background-image: url('resources/images/X.png');
+  -fx-background-size: 80px;
+  -fx-pref-width:90px;
+  -fx-pref-height:90px;
+}
+#btnO{
+  -fx-background-repeat:no-repeat;
+  -fx-background-position:center;
+  -fx-background-image: url('resources/images/O.png');
+  -fx-background-size: 80px;
+  -fx-pref-width:90px;
+  -fx-pref-height:90px;
+}
+#winning{
+    -fx-background-image:url(resources/images/white.jpg);
+}
+.root {
+     -fx-background-image: url(resources/images/sphinx.jpg);
+     -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+}
